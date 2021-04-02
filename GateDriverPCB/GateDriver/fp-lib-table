@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name XFootprintLib)(type KiCad)(uri D:/GIT/3-Phased-Inverter-for-Electric-Gokart/Library/XFootprintLib.pretty)(options "")(descr ""))
+)

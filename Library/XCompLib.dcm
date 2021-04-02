@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V_ISO1
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP +12V_ISO2
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP 2EDS8265
+D Isolated Dual Channel Gate Driver with 4A Source and 8A Sink peak currents
+K Isolated, Gate Driver, 4A/8A source/sink, Dual Channel
+F https://www.mouser.dk/datasheet/2/196/Infineon_2EDS8265H_DataSheet_v02_05_EN-1917909.pdf
+$ENDCMP
+#
+$CMP GND_ISO1
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_ISO2
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP SN74AUP2G08
+D Texas Instrument Dual AND Gate, 2 Inputs, 5.9 ns Prop. Delay
+$ENDCMP
+#
+$CMP SN74AUP2G17
+D Texas Instrument Dual Buffer, Schmitt Trigger, 5.9 ns Prop. Delay max
+K Schmitt Trigger, Schmitt-Trigger, Buffer, Dual Channel
+F https://www.ti.com/lit/ds/symlink/sn74aup2g17.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617394422131&ref_url=https%253A%252F%252Fwww.mouser.dk%252F
+$ENDCMP
+#
+#End Doc Library

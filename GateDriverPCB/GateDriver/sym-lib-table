@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CompLib)(type Legacy)(uri D:/GIT/3-Phased-Inverter-for-Electric-Gokart/Library/CompLib.lib)(options "")(descr ""))
+  (lib (name XCompLib)(type Legacy)(uri D:/GIT/3-Phased-Inverter-for-Electric-Gokart/Library/XCompLib.lib)(options "")(descr ""))
+)
