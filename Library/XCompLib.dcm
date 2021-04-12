@@ -26,14 +26,28 @@ D Power symbol creates a global label with name "GND" , ground
 K power-flag
 $ENDCMP
 #
+$CMP SN74AUP2G00
+D Texas Instruments, 2-input NAND gate, low-power
+K NAND gate, 2-input
+F https://www.ti.com/lit/ds/symlink/sn74aup2g00.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1618214890763
+$ENDCMP
+#
 $CMP SN74AUP2G08
 D Texas Instrument Dual AND Gate, 2 Inputs, 5.9 ns Prop. Delay
+K AND Gate, 2-input, Dual
+F https://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1618215001232
 $ENDCMP
 #
 $CMP SN74AUP2G17
 D Texas Instrument Dual Buffer, Schmitt Trigger, 5.9 ns Prop. Delay max
 K Schmitt Trigger, Schmitt-Trigger, Buffer, Dual Channel
 F https://www.ti.com/lit/ds/symlink/sn74aup2g17.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617394422131&ref_url=https%253A%252F%252Fwww.mouser.dk%252F
+$ENDCMP
+#
+$CMP TPS7B81
+D Texas Instruments, Low-Dropout Regulator, 150mA, 40V, Ultra-Low-IQ
+K LDO, Low-Dropout Regulator
+F https://www.ti.com/lit/ds/symlink/tps7b81.pdf?&ts=1589388582626
 $ENDCMP
 #
 #End Doc Library
