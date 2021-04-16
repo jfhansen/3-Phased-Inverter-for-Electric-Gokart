@@ -26,6 +26,12 @@ D Power symbol creates a global label with name "GND" , ground
 K power-flag
 $ENDCMP
 #
+$CMP IAUS300N08S5N012
+D N-Channel Enhancement Mode, Opti-MOS5 Power Transistor, VDS = 80V, Id = 300A, Trench MOSFET
+K N-Channel, Enhancement Mode, OptiMOS, 80V, 300A, Trench
+F https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348
+$ENDCMP
+#
 $CMP SN74AUP2G00
 D Texas Instruments, 2-input NAND gate, low-power
 K NAND gate, 2-input
